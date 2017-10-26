@@ -64,7 +64,7 @@ This app made it into the world `thanks to these` wonderful open-source projects
 * [jQuery](https://jquery.com/)
 * [Materialize - responsive front-end framework](http://materializecss.com/)
 * [Yarn - dependency management](https://yarnpkg.com/lang/en/)
-* [DeaDBeeF](https://github.com/ameiji/deadbeef-control)
+* [DeaDBeeF](https://github.com/DeaDBeeF-Player/deadbeef)
 
 
 # License
