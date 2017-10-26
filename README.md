@@ -12,6 +12,7 @@ Basic playback controls via sleek and modern "material" WEB interface:
 ## Requirements
 * python 2.7
 * flask >= 0.12
+
 Optional:
 * pip
 * python-virtualenv
