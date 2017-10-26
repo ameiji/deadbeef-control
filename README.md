@@ -30,6 +30,7 @@ Flask is a python microframework which provides backend logic and serves static 
 
 ### Flask installation
 You may follow the [official Flask documentation](http://flask.pocoo.org/docs/0.12/installation/) or these simple steps:
+
 For example, let's assume deadbeef-control archive was downloaded and unpacked into /opt/deadbeef-control
 * `$ pip install virtualenv ` or `apt-get install python-virtualenv` or `yum install python-virtualenv`- this step depends on your current distro and preferences.
 * `$ cd /opt/deadbeef-control`
