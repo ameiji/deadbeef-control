@@ -66,5 +66,6 @@ This app made it into the world `thanks to these` wonderful open-source projects
 
 
 # License
-Copyright (c) <2017> Dmitry Sarkisov <ait.meijin@gmail.com>, MIT License
+Copyright (c) <2017> Dmitry Sarkisov <ait.meijin@gmail.com>, MIT License.
+
 See LICENSE file
