@@ -40,8 +40,8 @@ You should see the output like:
 *  Point your browser to [http://127.0.0.1:5000](http://127.0.0.1:5000) or to whatever you host IP is.
 
 #### Other Installation Variants
-In this example flask framework is installed into python virtualenv, this is optional as you may have flask installed by different means. You may (and you should) serve static content by other means, see [this](http://flask.pocoo.org/docs/0.12/deploying/#deployment)
-For other choices please follow official documentation.
+In this example flask framework is installed into python virtualenv, this is optional as you may have Flask installed by different means. You may (and you should) serve static content by other means, see [this](http://flask.pocoo.org/docs/0.12/deploying/#deployment)
+For other choices please follow [official documentation](http://flask.pocoo.org/docs/dev/deploying/).
 In any way don't forget to change shebang string accordingly in *run.py*
 
 ## Warning
