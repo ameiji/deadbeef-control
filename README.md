@@ -2,7 +2,7 @@
 Remote Control web-app for the [DeaDBeeF Audio Player](https://github.com/DeaDBeeF-Player/deadbeef)
 
 ## Features
-Basic playback controls via sleek and modern "material" WEB interface:
+Basic playback controls via responsive and modern "material" WEB interface:
 
 * Play/pause
 * Next/Prev
@@ -10,6 +10,9 @@ Basic playback controls via sleek and modern "material" WEB interface:
 * Song/Artist/Album Info, etc.
 
 ![screenshot](https://image.ibb.co/eLpoqm/deadbeef_control_sm.png)
+
+* You can access web-interface from your PC or any mobile device with a modern browser.
+
 
 ## Requirements
 * python 2.7
@@ -21,7 +24,9 @@ Optional:
 
 ## Installation
 Download and unpack sources from this repository.
-This app requires Flask, a python microframework which provides backend logic and serves static content.
+
+This app requires [Flask](http://flask.pocoo.org) intalled somewhere.
+Flask is a python microframework which provides backend logic and serves static content.
 
 ### Flask installation
 You may follow the [official Flask documentation](http://flask.pocoo.org/docs/0.12/installation/) or these simple steps:
