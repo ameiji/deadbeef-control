@@ -1,0 +1,13 @@
+{
+  "name": "deadbeef-remote",
+  "version": "1.0.0",
+  "description": "Deadbeef Remote Control",
+  "main": "index.html",
+  "author": "Dmitry Sarkisov <ait.meijin@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "materialize-css": "^0.100.2"
+  }
+}

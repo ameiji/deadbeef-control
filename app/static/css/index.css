@@ -1,0 +1,11 @@
+/* Background pattern from Subtle Patterns */
+/* https://www.toptal.com/designers/subtlepatterns/faq/ */
+
+
+body {
+	background-image:url("/static/img/background.png");
+}
+
+.labels {
+	cursor: default;
+}
