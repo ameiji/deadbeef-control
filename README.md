@@ -23,7 +23,7 @@ Optional:
 * python-virtualenv
 
 ## Installation
-Download and unpack sources from this repository.
+Download and unpack sources from this repository on a *system were you run Deadbeef player*.
 
 This app requires [Flask](http://flask.pocoo.org) installed somewhere.
 Flask is a python microframework which provides backend logic and serves static content.
@@ -38,6 +38,7 @@ For example, let's assume deadbeef-control archive was downloaded and unpacked i
 * `$ pip install flask`
 * `$ deactivate `
 
+## Starting the App
 Now you may start the app:
 * `$ ./run.py`
 You should see the output like:
