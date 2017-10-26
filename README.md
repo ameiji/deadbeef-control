@@ -9,6 +9,8 @@ Basic playback controls via sleek and modern "material" WEB interface:
 * Shuffle
 * Song/Artist/Album Info, etc.
 
+![screenshot](https://image.ibb.co/eLpoqm/deadbeef_control_sm.png)
+
 ## Requirements
 * python 2.7
 * flask >= 0.12
