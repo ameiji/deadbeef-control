@@ -25,7 +25,7 @@ Optional:
 ## Installation
 Download and unpack sources from this repository.
 
-This app requires [Flask](http://flask.pocoo.org) intalled somewhere.
+This app requires [Flask](http://flask.pocoo.org) installed somewhere.
 Flask is a python microframework which provides backend logic and serves static content.
 
 ### Flask installation
