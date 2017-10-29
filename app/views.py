@@ -28,6 +28,68 @@ def get_pa_sinks():
     info  = handlers.pa_sinks()
     return jsonify({'pa_sinks': info})
 
+@app.route(baseapi + '/as/info', methods = ['GET'])
+def get_as_info():
+    info = handlers.as_info()
+    return jsonify({'as_info': info})
+
+
+@app.route(baseapi + '/as/mixers')
+def get_as_mixers():
+
+    result = handlers.as_list_mixers()
+
+    if (result['state'] == 'ok'):
+        resp = jsonify(result)
+        return resp
+    else:
+        resp = jsonify({'state': 'error', 'reason': result['state']  })
+        return make_response(resp, 404)
+
+
+@app.route(baseapi + '/as/vol/', methods = ['GET','POST'])
+def as_vol():
+
+    if (request.method == 'GET'):
+
+        device = request.args.get('device')
+
+        if (device):
+            result = handlers.as_getvol(device)
+
+            if (result['state'] == 'ok'):
+                resp = jsonify(result)
+                return resp
+            else:
+                resp = jsonify({'state': 'error', 'reason': result['state'], 'device': device })
+            return make_response(resp, 404)
+
+        else:
+            resp = jsonify({'state': 'error', 'reason': 'bad request', 'device':device })
+            return make_response(resp, 404)
+
+    elif (request.method == 'POST'):
+        
+        data = request.get_json()
+
+        if ( 'vol' in data  and 'device' in data):
+            vol = data['vol']
+            device = data['device']
+            res = handlers.as_setvol(device, vol)
+            state = res['state']
+
+            if (state == 'ok'):
+                resp = jsonify({'state': 'ok', 'vol': vol, 'device': device})
+                return resp
+            else:
+                resp = jsonify({'state': 'error', 'reason': state })
+                return make_response(resp, 404)
+        else:
+            resp = jsonify({'state': 'error', 'reason': 'bad request'})
+            return make_response(resp, 404)
+
+
+
 
 
 #   Deadbeef

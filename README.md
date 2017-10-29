@@ -17,6 +17,7 @@ Basic playback controls via responsive and modern "material" WEB interface:
 ## Requirements
 * python 2.7
 * flask >= 0.12
+* alsaaudio
 
 Optional:
 * pip
@@ -25,11 +26,12 @@ Optional:
 ## Installation
 Download and unpack sources from this repository on a *system were you run Deadbeef player*.
 
-This app requires [Flask](http://flask.pocoo.org) installed somewhere.
-Flask is a python microframework which provides backend logic and serves static content.
+This app requires:
+*  [Flask](http://flask.pocoo.org) installed somewhere. Flask is a python microframework which provides backend logic and serves static content.
+* alsaaudio - python bindings for [ALSA](http://www.alsa-project.org/main/index.php/Main_Page) API.
 
-### Flask installation
-You may follow the [official Flask documentation](http://flask.pocoo.org/docs/0.12/installation/) or these simple steps:
+
+### Dependencies installation
 
 For example, let's assume deadbeef-control archive was downloaded and unpacked into /opt/deadbeef-control
 * `$ pip install virtualenv ` or `apt-get install python-virtualenv` or `yum install python-virtualenv`- this step depends on your current distro and preferences.
@@ -37,7 +39,11 @@ For example, let's assume deadbeef-control archive was downloaded and unpacked i
 * `$ virtualenv flask`
 * `$ . flask/bin/activate` - mind the space after dot!
 * `$ pip install flask`
+* `$ pip install pyalsaaudio`
 * `$ deactivate `
+
+You may also follow the [official Flask documentation](http://flask.pocoo.org/docs/0.12/installation/).
+
 
 ## Starting the App
 Now you may start the app:
@@ -75,6 +81,7 @@ This app made it into the world `thanks to these` wonderful open-source projects
 * [Materialize - responsive front-end framework](http://materializecss.com/)
 * [Yarn - dependency management](https://yarnpkg.com/lang/en/)
 * [DeaDBeeF](https://github.com/DeaDBeeF-Player/deadbeef)
+* [alsaaudio](https://github.com/larsimmisch/pyalsaaudio)
 
 
 # License
