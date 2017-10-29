@@ -8,6 +8,7 @@ Basic playback controls via responsive and modern "material" WEB interface:
 * Next/Prev
 * Shuffle
 * Song/Artist/Album Info, etc.
+* Volume Control (right now for ALSA only)
 
 ![screenshot](https://image.ibb.co/eLpoqm/deadbeef_control_sm.png)
 
@@ -71,7 +72,7 @@ You have been warned >:)
 ## Bugs
 * Available controls and behaviour is limited to commands provided by DeaDBeeF command line (see `deadbeef --help`), 
 therefore this app lacks playlist management and many other advanced features of GTK application.
-* Please report bugs to the Issues section in this repo.
+* Please report any bugs found to the Issues section in this repo.
 
 ## Contributions
 This app made it into the world `thanks to these` wonderful open-source projects:
