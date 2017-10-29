@@ -10,7 +10,7 @@ Basic playback controls via responsive and modern "material" WEB interface:
 * Song/Artist/Album Info, etc.
 * Volume Control (right now for ALSA only)
 
-![screenshot](https://image.ibb.co/eLpoqm/deadbeef_control_sm.png)
+![screenshot](http://image.ibb.co/jgLuY6/2017_10_29_223244_960x1053_scrot_res.png)
 
 * You can access web-interface from your PC or any mobile device with a modern browser.
 
