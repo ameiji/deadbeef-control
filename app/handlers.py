@@ -116,7 +116,7 @@ def dbf_now():
     if not dbf_running():
         return {'state': 'nr'}
     
-    sleep(0.5); # delay for a correct deadbeef state update
+    sleep(0.1); # delay for a correct deadbeef state update
     with open(os.devnull, 'w') as devnull:
        string  = check_output(['deadbeef', '--nowplaying-tf', dbf_fmt], stderr = devnull)
 
